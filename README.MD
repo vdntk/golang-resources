@@ -872,271 +872,244 @@ MAC OS
 
 JSON
 ----
+
 - [Json parse a file in Golang](https://golangbyexample.com/json-parse-file-golang/)
-
-
 
 ### Why Go?
 
-[![Key advantages you may have overlooked](https://yourbasic.org/golang/unicorn-thumb.png "Why Go? -- Key advantages you may have overlooked")](https://yourbasic.org/golang/advantages-over-java-python/)
-
--   [Why Go? -- Key advantages you may have overlooked](https://yourbasic.org/golang/advantages-over-java-python/ "The main reasons Go makes it easier (than Java or Python) to write correct, clear and efficient code are discussed in this comprehensive report by an expert Go and Java developer.")
--   [Go vs. Java: 15 main differences](https://yourbasic.org/golang/go-vs-java/ "Code example that shows some main differences between Go and Java.")
+- [Why Go? -- Key advantages you may have overlooked](https://yourbasic.org/golang/advantages-over-java-python/ "The main reasons Go makes it easier (than Java or Python) to write correct, clear and efficient code are discussed in this comprehensive report by an expert Go and Java developer.")
+- [Go vs. Java: 15 main differences](https://yourbasic.org/golang/go-vs-java/ "Code example that shows some main differences between Go and Java.")
 
 ### Step-by-step guides
 
-[![Step-by-step guides](https://yourbasic.org/golang/step-by-step-thumb.jpg "Go step by step: detailed descriptions of core Go concepts")](https://yourbasic.org/golang/nutshells/)
-
 **-   [Go step by step](https://yourbasic.org/golang/nutshells/ "Detailed descriptions of core Go concepts: interfaces, slices, maps, for loops, switch statements, packages.")**
--   [Type, value and equality of interfaces](https://yourbasic.org/golang/interfaces-explained/ "An interface type consists of a set of method signatures. A variable of interface type can hold any value that implements these methods.")
--   [Create, initialize and compare structs](https://yourbasic.org/golang/structs-explained/ "A struct is a typed collection of fields, useful for grouping data into records.")
--   [Slices/arrays explained: create, index, slice, iterate](https://yourbasic.org/golang/slices-explained/ "A slice refers to a section of an underlying array. It can grow and shrink within the bounds of this array.")
--   [Maps explained: create, add, get, delete](https://yourbasic.org/golang/maps-explained/ "Go maps are implemented by hash tables and offer efficient add, get and delete operations. You create a new map with a make statement or a map literal.")
--   [5 basic for loop patterns](https://yourbasic.org/golang/for-loop/ "The for loop can be used for three-component loops, while loops, infinite loops and for-each range loops. You can exit a loop with break or continue.")
--   [5 switch statement patterns](https://yourbasic.org/golang/switch-statement/ "A switch-case-default statement is a shorter and cleaner way to write a sequence of if-else statements.")
--   [Packages explained: declare, import, download, document](https://yourbasic.org/golang/packages-explained/ "Every Go program is made up of packages and each package has an import path.")
+
+- [Type, value and equality of interfaces](https://yourbasic.org/golang/interfaces-explained/ "An interface type consists of a set of method signatures. A variable of interface type can hold any value that implements these methods.")
+- [Create, initialize and compare structs](https://yourbasic.org/golang/structs-explained/ "A struct is a typed collection of fields, useful for grouping data into records.")
+- [Slices/arrays explained: create, index, slice, iterate](https://yourbasic.org/golang/slices-explained/ "A slice refers to a section of an underlying array. It can grow and shrink within the bounds of this array.")
+- [Maps explained: create, add, get, delete](https://yourbasic.org/golang/maps-explained/ "Go maps are implemented by hash tables and offer efficient add, get and delete operations. You create a new map with a make statement or a map literal.")
+- [5 basic for loop patterns](https://yourbasic.org/golang/for-loop/ "The for loop can be used for three-component loops, while loops, infinite loops and for-each range loops. You can exit a loop with break or continue.")
+- [5 switch statement patterns](https://yourbasic.org/golang/switch-statement/ "A switch-case-default statement is a shorter and cleaner way to write a sequence of if-else statements.")
+- [Packages explained: declare, import, download, document](https://yourbasic.org/golang/packages-explained/ "Every Go program is made up of packages and each package has an import path.")
 
 ### Go gotchas
 
-[![](https://yourbasic.org/golang/angry-man-with-computer-thumb.png "Do you make these Go coding mistakes?")](https://yourbasic.org/golang/gotcha/)
-
--   [Assignment to entry in nil map](https://yourbasic.org/golang/gotcha-assignment-entry-nil-map/ "You have to initialize a map using the make function (or a map literal) before you can add any elements.")
--   [Invalid memory address or nil pointer dereference](https://yourbasic.org/golang/gotcha-nil-pointer-dereference/ "An uninitialized pointer is nil, and you can't follow the nil pointer. If x is nil, an attempt to evaluate *x will cause a run-time panic.")
--   [Multiple-value in single-value context](https://yourbasic.org/golang/gotcha-multiple-value-single-value-context/ "When a function returns multiple values, you must take care of each one. You can use the blank identifier (underscore) to ignore unwanted return values.")
--   [Array won't change](https://yourbasic.org/golang/gotcha-function-doesnt-change-array/ "Arrays in Go are values: when you pass an array to a function it gets a copy of the original array data. If you want a function to update its elements, use a slice that refers to the array.")
--   [**See all 27 gotchas**](https://yourbasic.org/golang/gotcha/)
+- [Assignment to entry in nil map](https://yourbasic.org/golang/gotcha-assignment-entry-nil-map/ "You have to initialize a map using the make function (or a map literal) before you can add any elements.")
+- [Invalid memory address or nil pointer dereference](https://yourbasic.org/golang/gotcha-nil-pointer-dereference/ "An uninitialized pointer is nil, and you can't follow the nil pointer. If x is nil, an attempt to evaluate *x will cause a run-time panic.")
+- [Multiple-value in single-value context](https://yourbasic.org/golang/gotcha-multiple-value-single-value-context/ "When a function returns multiple values, you must take care of each one. You can use the blank identifier (underscore) to ignore unwanted return values.")
+- [Array won't change](https://yourbasic.org/golang/gotcha-function-doesnt-change-array/ "Arrays in Go are values: when you pass an array to a function it gets a copy of the original array data. If you want a function to update its elements, use a slice that refers to the array.")
+- [**See all 27 gotchas**](https://yourbasic.org/golang/gotcha/)
 
 ### Tutorials
 
-[![](https://yourbasic.org/golang/learn-to-write-thumb.jpg "Go tutorials")](https://yourbasic.org/golang/tutorials/)
-
 **-   [Go tutorials](https://yourbasic.org/golang/tutorials/ "Golang tutorials for beginners and experienced developers alike: best practices and production-quality code examples.")**
--   [Go beginner's guide: top 4 resources to get you started](https://yourbasic.org/golang/getting-started-hello-world/ "How to write 'Hello world' and get started with Go programming: try it out, learn the basics, install the tools, and start a project.")
--   [How to use JSON with Go [best practices]](https://yourbasic.org/golang/json-example/ "An introduction to Go JSON encoding and decoding with plenty of examples.")
--   [Regexp tutorial and cheat sheet](https://yourbasic.org/golang/regexp-cheat-sheet/ "Regular expressions in Go: introduction, cheat sheet and plenty of code examples.")
--   [Java to Go in-depth tutorial](https://yourbasic.org/golang/go-java-tutorial/ "A tutorial to help Java programmers come up to speed quickly with Go. It compares the languages and offers plenty of code examples.")
+
+- [Go beginner's guide: top 4 resources to get you started](https://yourbasic.org/golang/getting-started-hello-world/ "How to write 'Hello world' and get started with Go programming: try it out, learn the basics, install the tools, and start a project.")
+- [How to use JSON with Go [best practices]](https://yourbasic.org/golang/json-example/ "An introduction to Go JSON encoding and decoding with plenty of examples.")
+- [Regexp tutorial and cheat sheet](https://yourbasic.org/golang/regexp-cheat-sheet/ "Regular expressions in Go: introduction, cheat sheet and plenty of code examples.")
+- [Java to Go in-depth tutorial](https://yourbasic.org/golang/go-java-tutorial/ "A tutorial to help Java programmers come up to speed quickly with Go. It compares the languages and offers plenty of code examples.")
 
 ### Cheat sheets
 
--   [Go string handling overview [cheat sheet]](https://yourbasic.org/golang/string-functions-reference-cheat-sheet/ "40+ essential string functions: literals, concatenation, equality, ordering, indexing, UTF-8, search, join, replace, split, trim, strip, lowercase/uppercase.")
--   [Conversions [complete list]](https://yourbasic.org/golang/conversions/ "All Go conversions (casts): interfaces, strings, integers, floats, byte slices, rune slices, underlying type, implicit conversions and pointers.")
--   [fmt.Printf formatting tutorial and cheat sheet](https://yourbasic.org/golang/fmt-printf-reference-cheat-sheet/ "The functions fmt.Printf and fmt.Sprintf format numbers and strings indented with spaces or zeroes, in different bases, and with optional quotes.")
--   [Format a time or date [complete guide]](https://yourbasic.org/golang/format-parse-string-time-date-example/ "To format or parse a time in Go, you format a special layout parameter (Mon Jan 2 15:04:05 MST 2006) the same way as the time should be formatted. ")
--   [Regexp tutorial and cheat sheet](https://yourbasic.org/golang/regexp-cheat-sheet/ "Regular expressions in Go: introduction, cheat sheet and plenty of code examples.")
--   [Bitwise operators [cheat sheet]](https://yourbasic.org/golang/bitwise-operator-cheat-sheet/ "To manipulate bits your can use operators (bitwise NOT, AND, OR, XOR, left and right shift) and functions in package math/bits (bitcount, rotate, reverse, leading and trailing zeros).")
--   [Start a new Go project [standard layout]](https://yourbasic.org/golang/library-package-example-template/ "This standard project layout includes a README file, godoc, testable examples, a license, unit tests and benchmarks.")
--   [Learn to love your compiler](https://yourbasic.org/golang/compiler-error-messages/ "Confusing Go compiler error messages: what they mean and how to fix the problem.")
+- [Go string handling overview [cheat sheet]](https://yourbasic.org/golang/string-functions-reference-cheat-sheet/ "40+ essential string functions: literals, concatenation, equality, ordering, indexing, UTF-8, search, join, replace, split, trim, strip, lowercase/uppercase.")
+- [Conversions [complete list]](https://yourbasic.org/golang/conversions/ "All Go conversions (casts): interfaces, strings, integers, floats, byte slices, rune slices, underlying type, implicit conversions and pointers.")
+- [fmt.Printf formatting tutorial and cheat sheet](https://yourbasic.org/golang/fmt-printf-reference-cheat-sheet/ "The functions fmt.Printf and fmt.Sprintf format numbers and strings indented with spaces or zeroes, in different bases, and with optional quotes.")
+- [Format a time or date [complete guide]](https://yourbasic.org/golang/format-parse-string-time-date-example/ "To format or parse a time in Go, you format a special layout parameter (Mon Jan 2 15:04:05 MST 2006) the same way as the time should be formatted. ")
+- [Regexp tutorial and cheat sheet](https://yourbasic.org/golang/regexp-cheat-sheet/ "Regular expressions in Go: introduction, cheat sheet and plenty of code examples.")
+- [Bitwise operators [cheat sheet]](https://yourbasic.org/golang/bitwise-operator-cheat-sheet/ "To manipulate bits your can use operators (bitwise NOT, AND, OR, XOR, left and right shift) and functions in package math/bits (bitcount, rotate, reverse, leading and trailing zeros).")
+- [Start a new Go project [standard layout]](https://yourbasic.org/golang/library-package-example-template/ "This standard project layout includes a README file, godoc, testable examples, a license, unit tests and benchmarks.")
+- [Learn to love your compiler](https://yourbasic.org/golang/compiler-error-messages/ "Confusing Go compiler error messages: what they mean and how to fix the problem.")
 
 ### Code for common tasks
 
-[![Go blueprints: code for common tasks](https://yourbasic.org/golang/blueprint-thumb.jpg "Go blueprints: code for common tasks")](https://yourbasic.org/golang/blueprint/)
-
 **-   [Go blueprints: code for common tasks](https://yourbasic.org/golang/blueprint/ "A collection of code examples intended to help you solve common everyday programming tasks in Go.")**
--   [2 basic FIFO queue implementations](https://yourbasic.org/golang/implement-fifo-queue/ "Use a slice for a temporary queue. For a long-living queue you should probably use a dynamic data structure, such as a linked list.")
--   [2 basic set implementations](https://yourbasic.org/golang/implement-set/ "To implement a set in Go you can use a key-value map with boolean or empty struct values.")
--   [A basic stack (LIFO) data structure](https://yourbasic.org/golang/implement-stack/ "You can implement a stack (LIFO queue) data structure in Go with a slice and the append function.")
--   [Access environment variables](https://yourbasic.org/golang/environment-variables/ "Use the Setenv, Getenv, Unsetenv and Environ functions to read and write environment variables.")
--   [Access private fields with reflection](https://yourbasic.org/golang/access-private-field-reflection/ "How to read unexported fields in a struct using reflection in Go.")
--   [Bitmasks, bitsets and flags](https://yourbasic.org/golang/bitmask-flag-set-clear/ "A bitmask or bitset is a set of booleans, often called flags, represented by the bits in one or more numbers number.")
--   [Check if a number is prime](https://yourbasic.org/golang/check-prime/ "To check if a number is prime in Go use the ProbablyPrime function from package math/big.")
--   [Command-line arguments and flags](https://yourbasic.org/golang/command-line-arguments/ "You can access command-line arguments, including the program name and flags, through the os.Args variable.")
--   [Go as a scripting language: lightweight, safe and fast](https://yourbasic.org/golang/write-command-line-application/ "How to write a basic command-line (CLI) application in Go.")
--   [Compute absolute value of an int/float](https://yourbasic.org/golang/absolute-value-int-float/ "Write your own code to compute the absolute value of an integer, but use math.Abs for floating point numbers.")
--   [Compute max of two ints/floats](https://yourbasic.org/golang/max-min-function/ "Write your own code to compute the minimum and maximum of integers, but use math.Min and math.Max for floating point numbers.")
--   [3 simple ways to create an error](https://yourbasic.org/golang/create-error/ "How to create simple string-based errors and custom error types with data.")
--   [Create a new image](https://yourbasic.org/golang/create-image/ "To generate a PNG image programmatically in Go use the image, image/color, and image/png packages.")
--   [Format byte size as kilobytes, megabytes, gigabytes, ...](https://yourbasic.org/golang/formatting-byte-size-to-human-readable-format/ "Utility functions for converting byte size to human-readable format. The code supports both SI and IEC formats.")
--   [Generate all permutations](https://yourbasic.org/golang/generate-permutation-slice-string/ "How to generate all permutations of a slice or string in Go.")
--   [Hash checksums: MD5, SHA-1, SHA-256](https://yourbasic.org/golang/hash-md5-sha256-string-file/ "To compute the hash value of a string or byte slice, use the Sum function from crypto package md5, sha1 or sha256. For a file or input stream you need to create a Hash object and write to its Writer function.")
--   [Hello world HTTP server example](https://yourbasic.org/golang/http-server-example/ "Line-by-line breakdown of a basic HTTP web server with client requests and responses.")
--   [How to best implement an iterator](https://yourbasic.org/golang/iterator-generator-pattern/ "Use an iterator function with callbacks to implement a clean and efficient iterator in Go.")
--   [4 iota enum examples](https://yourbasic.org/golang/iota/ "The iota identifier is used to enumerate constants. For an idiomatic enum implementation, create a new type and give it a String function.")
--   [Maximum value of an int](https://yourbasic.org/golang/max-min-int-uint/ "The max and min values of an int can be computed as untyped constants.")
--   [Round float to 2 decimal places](https://yourbasic.org/golang/round-float-2-decimal-places/ "How to round a float to a string/float with 2 decimal places in Go.")
--   [Round float to integer value](https://yourbasic.org/golang/round-float-to-int/ "How to round a float64 to the nearest integer: round away from zero, round to even number, convert to an int type.")
--   [The 3 ways to sort in Go](https://yourbasic.org/golang/how-to-sort-in-go/ "How to sort any type of data in Go using the sort package. All algorithms in the package perform O(n log n) comparisons in the worst case.")
--   [Table-driven unit tests](https://yourbasic.org/golang/table-driven-unit-test/ "How to write a table-driven unit test for binary search in Go.")
+
+- [2 basic FIFO queue implementations](https://yourbasic.org/golang/implement-fifo-queue/ "Use a slice for a temporary queue. For a long-living queue you should probably use a dynamic data structure, such as a linked list.")
+- [2 basic set implementations](https://yourbasic.org/golang/implement-set/ "To implement a set in Go you can use a key-value map with boolean or empty struct values.")
+- [A basic stack (LIFO) data structure](https://yourbasic.org/golang/implement-stack/ "You can implement a stack (LIFO queue) data structure in Go with a slice and the append function.")
+- [Access environment variables](https://yourbasic.org/golang/environment-variables/ "Use the Setenv, Getenv, Unsetenv and Environ functions to read and write environment variables.")
+- [Access private fields with reflection](https://yourbasic.org/golang/access-private-field-reflection/ "How to read unexported fields in a struct using reflection in Go.")
+- [Bitmasks, bitsets and flags](https://yourbasic.org/golang/bitmask-flag-set-clear/ "A bitmask or bitset is a set of booleans, often called flags, represented by the bits in one or more numbers number.")
+- [Check if a number is prime](https://yourbasic.org/golang/check-prime/ "To check if a number is prime in Go use the ProbablyPrime function from package math/big.")
+- [Command-line arguments and flags](https://yourbasic.org/golang/command-line-arguments/ "You can access command-line arguments, including the program name and flags, through the os.Args variable.")
+- [Go as a scripting language: lightweight, safe and fast](https://yourbasic.org/golang/write-command-line-application/ "How to write a basic command-line (CLI) application in Go.")
+- [Compute absolute value of an int/float](https://yourbasic.org/golang/absolute-value-int-float/ "Write your own code to compute the absolute value of an integer, but use math.Abs for floating point numbers.")
+- [Compute max of two ints/floats](https://yourbasic.org/golang/max-min-function/ "Write your own code to compute the minimum and maximum of integers, but use math.Min and math.Max for floating point numbers.")
+- [3 simple ways to create an error](https://yourbasic.org/golang/create-error/ "How to create simple string-based errors and custom error types with data.")
+- [Create a new image](https://yourbasic.org/golang/create-image/ "To generate a PNG image programmatically in Go use the image, image/color, and image/png packages.")
+- [Format byte size as kilobytes, megabytes, gigabytes, ...](https://yourbasic.org/golang/formatting-byte-size-to-human-readable-format/ "Utility functions for converting byte size to human-readable format. The code supports both SI and IEC formats.")
+- [Generate all permutations](https://yourbasic.org/golang/generate-permutation-slice-string/ "How to generate all permutations of a slice or string in Go.")
+- [Hash checksums: MD5, SHA-1, SHA-256](https://yourbasic.org/golang/hash-md5-sha256-string-file/ "To compute the hash value of a string or byte slice, use the Sum function from crypto package md5, sha1 or sha256. For a file or input stream you need to create a Hash object and write to its Writer function.")
+- [Hello world HTTP server example](https://yourbasic.org/golang/http-server-example/ "Line-by-line breakdown of a basic HTTP web server with client requests and responses.")
+- [How to best implement an iterator](https://yourbasic.org/golang/iterator-generator-pattern/ "Use an iterator function with callbacks to implement a clean and efficient iterator in Go.")
+- [4 iota enum examples](https://yourbasic.org/golang/iota/ "The iota identifier is used to enumerate constants. For an idiomatic enum implementation, create a new type and give it a String function.")
+- [Maximum value of an int](https://yourbasic.org/golang/max-min-int-uint/ "The max and min values of an int can be computed as untyped constants.")
+- [Round float to 2 decimal places](https://yourbasic.org/golang/round-float-2-decimal-places/ "How to round a float to a string/float with 2 decimal places in Go.")
+- [Round float to integer value](https://yourbasic.org/golang/round-float-to-int/ "How to round a float64 to the nearest integer: round away from zero, round to even number, convert to an int type.")
+- [The 3 ways to sort in Go](https://yourbasic.org/golang/how-to-sort-in-go/ "How to sort any type of data in Go using the sort package. All algorithms in the package perform O(n log n) comparisons in the worst case.")
+- [Table-driven unit tests](https://yourbasic.org/golang/table-driven-unit-test/ "How to write a table-driven unit test for binary search in Go.")
 
 ### Concurrent programming
 
-[![Concurrent programming](https://yourbasic.org/golang/bouncing-balls-thumb.jpg "Concurrent programming")](https://yourbasic.org/golang/concurrent-programming/)
-
 **-   [Concurrent programming](https://yourbasic.org/golang/concurrent-programming/ "This tutorial covers concurrency patterns, goroutines, channels, deadlock, data race, timer, ticker, waitgroup, and efficient parallel computation.")**
--   [Goroutines are lightweight threads](https://yourbasic.org/golang/goroutines-explained/ "A goroutine is a lightweight thread of execution. All goroutines in a single program share the same address space.")
--   [Channels offer synchronized communication](https://yourbasic.org/golang/channels-explained/ "A channel is a mechanism for two goroutines to synchronize execution and communicate by passing values.")
--   [Select waits on a group of channels](https://yourbasic.org/golang/select-explained/ "A select statement allows you to wait for multiple send or receive operations simultaneously.")
--   [Data races explained](https://yourbasic.org/golang/data-races-explained/ "A data race is easily introduced by mistake and can lead to situations that are very hard to debug. This article explains how to avoid this headache.")
--   [How to detect data races](https://yourbasic.org/golang/detect-data-races/ "By starting your application with the '-race' option, the Go runtime might be able to detect and inform you about data races.")
--   [How to debug deadlocks](https://yourbasic.org/golang/detect-deadlock/ "The Go runtime can often detect when a program freezes because of a deadlock. This article explains how to debug and solve such issues.")
--   [Waiting for goroutines](https://yourbasic.org/golang/wait-for-goroutines-waitgroup/ "A sync.WaitGroup waits for a group of goroutines to finish.")
--   [Broadcast a signal on a channel](https://yourbasic.org/golang/broadcast-channel/ "When you read from a closed channel, you receive a zero value. This can be used to broadcast a signal to several goroutines on a single channel.")
--   [How to kill a goroutine](https://yourbasic.org/golang/stop-goroutine/ "One goroutine can't forcibly stop another. To make a goroutine stoppable, let it listen for a stop signal on a channel.")
--   [Timer and Ticker: events in the future](https://yourbasic.org/golang/time-reset-wait-stop-timeout-cancel-interval/ "Timers and Tickers are used to wait for, repeat, and cancel events in the future.")
--   [Mutual exclusion lock (mutex)](https://yourbasic.org/golang/mutex-explained/ "A sync.Mutex is used to synchronize data by explicit locking in Go.")
--   [3 rules for efficient parallel computation](https://yourbasic.org/golang/efficient-parallel-computation/ "To efficiently schedule parallel computation on separate CPUs is more of an art than a science. This article gives some rules of thumb.")
+
+- [Goroutines are lightweight threads](https://yourbasic.org/golang/goroutines-explained/ "A goroutine is a lightweight thread of execution. All goroutines in a single program share the same address space.")
+- [Channels offer synchronized communication](https://yourbasic.org/golang/channels-explained/ "A channel is a mechanism for two goroutines to synchronize execution and communicate by passing values.")
+- [Select waits on a group of channels](https://yourbasic.org/golang/select-explained/ "A select statement allows you to wait for multiple send or receive operations simultaneously.")
+- [Data races explained](https://yourbasic.org/golang/data-races-explained/ "A data race is easily introduced by mistake and can lead to situations that are very hard to debug. This article explains how to avoid this headache.")
+- [How to detect data races](https://yourbasic.org/golang/detect-data-races/ "By starting your application with the '-race' option, the Go runtime might be able to detect and inform you about data races.")
+- [How to debug deadlocks](https://yourbasic.org/golang/detect-deadlock/ "The Go runtime can often detect when a program freezes because of a deadlock. This article explains how to debug and solve such issues.")
+- [Waiting for goroutines](https://yourbasic.org/golang/wait-for-goroutines-waitgroup/ "A sync.WaitGroup waits for a group of goroutines to finish.")
+- [Broadcast a signal on a channel](https://yourbasic.org/golang/broadcast-channel/ "When you read from a closed channel, you receive a zero value. This can be used to broadcast a signal to several goroutines on a single channel.")
+- [How to kill a goroutine](https://yourbasic.org/golang/stop-goroutine/ "One goroutine can't forcibly stop another. To make a goroutine stoppable, let it listen for a stop signal on a channel.")
+- [Timer and Ticker: events in the future](https://yourbasic.org/golang/time-reset-wait-stop-timeout-cancel-interval/ "Timers and Tickers are used to wait for, repeat, and cancel events in the future.")
+- [Mutual exclusion lock (mutex)](https://yourbasic.org/golang/mutex-explained/ "A sync.Mutex is used to synchronize data by explicit locking in Go.")
+- [3 rules for efficient parallel computation](https://yourbasic.org/golang/efficient-parallel-computation/ "To efficiently schedule parallel computation on separate CPUs is more of an art than a science. This article gives some rules of thumb.")
 
 ### Object-oriented programming
 
-[![Object-oriented programming without inheritance](https://yourbasic.org/golang/improvement-thumb.jpg "Object-oriented programming without inheritance")](https://yourbasic.org/golang/inheritance-object-oriented/)
-
--   [Object-oriented programming without inheritance](https://yourbasic.org/golang/inheritance-object-oriented/ "Go doesn't have inheritance. Composition, embedding and interfaces support code reuse and polymorphism.")
--   [Constructors deconstructed [best practice]](https://yourbasic.org/golang/constructor-best-practice/ "Best practice in Go is to use suitable zero values and factories instead of constructors.")
--   [Methods explained](https://yourbasic.org/golang/methods-explained/ "Go doesn't have classes, but you can define methods on types. A method is a function with an extra receiver argument.")
--   [Public vs. private](https://yourbasic.org/golang/public-private/ "All identifiers are visible throughout the package where they are defined; an identifier that begins with a capital letter is globally visible.")
--   [Pointer vs. value receiver](https://yourbasic.org/golang/pointer-vs-value-receiver/ "Guidelines on how to choose between pointer and value receivers for Go methods.")
+- [Object-oriented programming without inheritance](https://yourbasic.org/golang/inheritance-object-oriented/ "Go doesn't have inheritance. Composition, embedding and interfaces support code reuse and polymorphism.")
+- [Constructors deconstructed [best practice]](https://yourbasic.org/golang/constructor-best-practice/ "Best practice in Go is to use suitable zero values and factories instead of constructors.")
+- [Methods explained](https://yourbasic.org/golang/methods-explained/ "Go doesn't have classes, but you can define methods on types. A method is a function with an extra receiver argument.")
+- [Public vs. private](https://yourbasic.org/golang/public-private/ "All identifiers are visible throughout the package where they are defined; an identifier that begins with a capital letter is globally visible.")
+- [Pointer vs. value receiver](https://yourbasic.org/golang/pointer-vs-value-receiver/ "Guidelines on how to choose between pointer and value receivers for Go methods.")
 
 ### Functional programming
 
--   [Functional programming in Go [case study]](https://yourbasic.org/golang/your-basic-func/ "A graph implementation based entirely on functions: the API contains only immutable data types, and the code is built on top of a struct with five func fields.")
--   [Function types and values](https://yourbasic.org/golang/function-pointer-type-declaration/ "Functions in Go are first class citizens: function types and function values can be used and passed around just like other values.")
--   [Anonymous functions and closures](https://yourbasic.org/golang/anonymous-function-literal-lambda-closure/ "A function literal, or lambda, represents a function without a name. Function literals in Go are closures: they may refer to variables defined in a enclosing function.")
--   [How to best implement an iterator](https://yourbasic.org/golang/iterator-generator-pattern/ "Use an iterator function with callbacks to implement a clean and efficient iterator in Go.")
+- [Functional programming in Go [case study]](https://yourbasic.org/golang/your-basic-func/ "A graph implementation based entirely on functions: the API contains only immutable data types, and the code is built on top of a struct with five func fields.")
+- [Function types and values](https://yourbasic.org/golang/function-pointer-type-declaration/ "Functions in Go are first class citizens: function types and function values can be used and passed around just like other values.")
+- [Anonymous functions and closures](https://yourbasic.org/golang/anonymous-function-literal-lambda-closure/ "A function literal, or lambda, represents a function without a name. Function literals in Go are closures: they may refer to variables defined in a enclosing function.")
+- [How to best implement an iterator](https://yourbasic.org/golang/iterator-generator-pattern/ "Use an iterator function with callbacks to implement a clean and efficient iterator in Go.")
 
 ### Scripting
 
-[![Go as a scripting language: lightweight, safe and fast](https://yourbasic.org/golang/hp-terminal-thumb.jpg "Go as a scripting language: lightweight, safe and fast")](https://yourbasic.org/golang/write-command-line-application/)
-
--   [Go as a scripting language: lightweight, safe and fast](https://yourbasic.org/golang/write-command-line-application/ "How to write a basic command-line (CLI) application in Go.")
--   [Read a file (stdin) line by line](https://yourbasic.org/golang/read-file-line-by-line/ "Use a bufio.Scanner to read a file one line at a time in Go. Use os.Stdin to read from the standard input stream.")
--   [Command-line arguments and flags](https://yourbasic.org/golang/command-line-arguments/ "You can access command-line arguments, including the program name and flags, through the os.Args variable.")
--   [Access environment variables](https://yourbasic.org/golang/environment-variables/ "Use the Setenv, Getenv, Unsetenv and Environ functions to read and write environment variables.")
+- [Go as a scripting language: lightweight, safe and fast](https://yourbasic.org/golang/write-command-line-application/ "How to write a basic command-line (CLI) application in Go.")
+- [Read a file (stdin) line by line](https://yourbasic.org/golang/read-file-line-by-line/ "Use a bufio.Scanner to read a file one line at a time in Go. Use os.Stdin to read from the standard input stream.")
+- [Command-line arguments and flags](https://yourbasic.org/golang/command-line-arguments/ "You can access command-line arguments, including the program name and flags, through the os.Args variable.")
+- [Access environment variables](https://yourbasic.org/golang/environment-variables/ "Use the Setenv, Getenv, Unsetenv and Environ functions to read and write environment variables.")
 
 ### Strings[Cheat sheet](https://yourbasic.org/golang/string-functions-reference-cheat-sheet/)
 
-[![40+ practical string tips](https://yourbasic.org/golang/typewriter-thumb.png "40+ practical string tips")](https://yourbasic.org/golang/string-functions-reference-cheat-sheet/)
-
--   [Go string handling overview [cheat sheet]](https://yourbasic.org/golang/string-functions-reference-cheat-sheet/ "40+ essential string functions: literals, concatenation, equality, ordering, indexing, UTF-8, search, join, replace, split, trim, strip, lowercase/uppercase.")
--   [fmt.Printf formatting tutorial and cheat sheet](https://yourbasic.org/golang/fmt-printf-reference-cheat-sheet/ "The functions fmt.Printf and fmt.Sprintf format numbers and strings indented with spaces or zeroes, in different bases, and with optional quotes.")
--   [Regexp tutorial and cheat sheet](https://yourbasic.org/golang/regexp-cheat-sheet/ "Regular expressions in Go: introduction, cheat sheet and plenty of code examples.")
--   [Runes and character encoding](https://yourbasic.org/golang/rune/ "A rune is a type meant to represent a Unicode code point. Strings, however, are sequences of bytes (typically containing Unicode text encoded in UTF-8). ")
--   [Efficient string concatenation [full guide]](https://yourbasic.org/golang/build-append-concatenate-strings-efficiently/ "Use a strings.Builder together with the fmt package for a clean and simple way to build strings efficiently without redundant copying.")
--   [Escapes and multiline strings](https://yourbasic.org/golang/multiline-string/ "Essential Go string encodings in one place: raw strings, interpreted strings, escape characters, HTML and URL encoding.")
--   [3 ways to split a string into a slice](https://yourbasic.org/golang/split-string-into-slice/ "strings.Split splits a string into its comma separated values, strings.Fields splits a string into substrings removing whitespace, regexp.Split splits into substrings separated by a regular expression.")
--   [Convert between byte array/slice and string](https://yourbasic.org/golang/convert-string-to-byte-slice/ "When you convert between a string and a byte slice (array), you get a brand new slice that contains the same bytes as the string, and vice versa.")
--   [Convert between rune array/slice and string](https://yourbasic.org/golang/convert-string-to-rune-slice/ "When you convert a string to a rune slice (array), you get a new slice that contains the Unicode code points (runes) of the string.")
--   [Convert between float and string](https://yourbasic.org/golang/convert-string-to-float/ "Use strconv.ParseFloat to parse a floating point number from a string, and fmt.Sprintf to format a float as a string.")
--   [Convert between int, int64 and string](https://yourbasic.org/golang/convert-int-to-string/ "Use strconv.Itoa to convert an int to a decimal string, and strconv.Atoi to parse a string to an int.")
--   [Convert interface to string](https://yourbasic.org/golang/interface-to-string/ "To get a string representation of an interface value in Go, use the fmt.Sprintf function.")
--   [Remove all duplicate whitespace](https://yourbasic.org/golang/remove-duplicate-whitespace/ "The regexp \s+ can be used to delete duplicate whitespace from a string.")
--   [3 ways to trim whitespace (or other characters) from a string](https://yourbasic.org/golang/trim-whitespace-from-string/ "Use the strings.TrimSpace function to strip leading and trailing whitespace from a string.")
--   [How to reverse a string by byte or rune](https://yourbasic.org/golang/reverse-utf8-string/ "How to reverse a UTF-8 encoded string in Go.")
+- [Go string handling overview [cheat sheet]](https://yourbasic.org/golang/string-functions-reference-cheat-sheet/ "40+ essential string functions: literals, concatenation, equality, ordering, indexing, UTF-8, search, join, replace, split, trim, strip, lowercase/uppercase.")
+- [fmt.Printf formatting tutorial and cheat sheet](https://yourbasic.org/golang/fmt-printf-reference-cheat-sheet/ "The functions fmt.Printf and fmt.Sprintf format numbers and strings indented with spaces or zeroes, in different bases, and with optional quotes.")
+- [Regexp tutorial and cheat sheet](https://yourbasic.org/golang/regexp-cheat-sheet/ "Regular expressions in Go: introduction, cheat sheet and plenty of code examples.")
+- [Runes and character encoding](https://yourbasic.org/golang/rune/ "A rune is a type meant to represent a Unicode code point. Strings, however, are sequences of bytes (typically containing Unicode text encoded in UTF-8). ")
+- [Efficient string concatenation [full guide]](https://yourbasic.org/golang/build-append-concatenate-strings-efficiently/ "Use a strings.Builder together with the fmt package for a clean and simple way to build strings efficiently without redundant copying.")
+- [Escapes and multiline strings](https://yourbasic.org/golang/multiline-string/ "Essential Go string encodings in one place: raw strings, interpreted strings, escape characters, HTML and URL encoding.")
+- [3 ways to split a string into a slice](https://yourbasic.org/golang/split-string-into-slice/ "strings.Split splits a string into its comma separated values, strings.Fields splits a string into substrings removing whitespace, regexp.Split splits into substrings separated by a regular expression.")
+- [Convert between byte array/slice and string](https://yourbasic.org/golang/convert-string-to-byte-slice/ "When you convert between a string and a byte slice (array), you get a brand new slice that contains the same bytes as the string, and vice versa.")
+- [Convert between rune array/slice and string](https://yourbasic.org/golang/convert-string-to-rune-slice/ "When you convert a string to a rune slice (array), you get a new slice that contains the Unicode code points (runes) of the string.")
+- [Convert between float and string](https://yourbasic.org/golang/convert-string-to-float/ "Use strconv.ParseFloat to parse a floating point number from a string, and fmt.Sprintf to format a float as a string.")
+- [Convert between int, int64 and string](https://yourbasic.org/golang/convert-int-to-string/ "Use strconv.Itoa to convert an int to a decimal string, and strconv.Atoi to parse a string to an int.")
+- [Convert interface to string](https://yourbasic.org/golang/interface-to-string/ "To get a string representation of an interface value in Go, use the fmt.Sprintf function.")
+- [Remove all duplicate whitespace](https://yourbasic.org/golang/remove-duplicate-whitespace/ "The regexp \s+ can be used to delete duplicate whitespace from a string.")
+- [3 ways to trim whitespace (or other characters) from a string](https://yourbasic.org/golang/trim-whitespace-from-string/ "Use the strings.TrimSpace function to strip leading and trailing whitespace from a string.")
+- [How to reverse a string by byte or rune](https://yourbasic.org/golang/reverse-utf8-string/ "How to reverse a UTF-8 encoded string in Go.")
 
 ### Maps[Step-by-step](https://yourbasic.org/golang/maps-explained/)
 
-[![Maps explained](https://yourbasic.org/golang/15-men-in-16-slots-thumb.jpg "Maps explained")](https://yourbasic.org/golang/maps-explained/)
-
--   [Maps explained: create, add, get, delete](https://yourbasic.org/golang/maps-explained/ "Go maps are implemented by hash tables and offer efficient add, get and delete operations. You create a new map with a make statement or a map literal.")
--   [3 ways to find a key in a map](https://yourbasic.org/golang/check-map-contains-key/ "To check if a map contains a key, use the second return value. It's a boolean that indicates if the key exists.")
--   [Get slices of keys and values from a map](https://yourbasic.org/golang/slice-of-keys-values-from-map/ "You can use a range statement to extract slices of keys and values from a map in Go.")
--   [Sort a map by key or value](https://yourbasic.org/golang/sort-map-keys-values/ "To sort a map (which is an unordered collection) you must maintain a separate data structure, typically a slice of keys or values.")
+- [Maps explained: create, add, get, delete](https://yourbasic.org/golang/maps-explained/ "Go maps are implemented by hash tables and offer efficient add, get and delete operations. You create a new map with a make statement or a map literal.")
+- [3 ways to find a key in a map](https://yourbasic.org/golang/check-map-contains-key/ "To check if a map contains a key, use the second return value. It's a boolean that indicates if the key exists.")
+- [Get slices of keys and values from a map](https://yourbasic.org/golang/slice-of-keys-values-from-map/ "You can use a range statement to extract slices of keys and values from a map in Go.")
+- [Sort a map by key or value](https://yourbasic.org/golang/sort-map-keys-values/ "To sort a map (which is an unordered collection) you must maintain a separate data structure, typically a slice of keys or values.")
 
 ### Slices and arrays[Step-by-step](https://yourbasic.org/golang/slices-explained/)
 
-[![](https://yourbasic.org/golang/orange-thumb.jpg "Slices and arrays in 6 easy steps")](https://yourbasic.org/golang/slices-explained/)
-
--   [Slices/arrays explained: create, index, slice, iterate](https://yourbasic.org/golang/slices-explained/ "A slice refers to a section of an underlying array. It can grow and shrink within the bounds of this array.")
--   [3 ways to compare slices (arrays)](https://yourbasic.org/golang/compare-slices/ "You typically want to write your own code to compare slices. However, use the optimized bytes.Equal for byte slices, and for testing consider using reflect.DeepEqual.")
--   [How to best clear a slice: empty vs. nil](https://yourbasic.org/golang/clear-slice/ "You can clear a slice either by setting it to nil and releasing the underlying memory, or by slicing it to zero length and thereby keeping the memory.")
--   [2 ways to delete an element from a slice](https://yourbasic.org/golang/delete-element-slice/ "How to remove an element from a slice: fast version (changes order), slow version (maintains order).")
--   [Find element in slice/array with linear or binary search](https://yourbasic.org/golang/find-search-contains-slice/ "To check if a slice or array contains an element, you can either write your own linear search or use one of the provided binary search functions.")
--   [Last item in a slice/array](https://yourbasic.org/golang/last-item-in-slice/ "Use a[len(a)-1] to access the last element of a.")
+- [Slices/arrays explained: create, index, slice, iterate](https://yourbasic.org/golang/slices-explained/ "A slice refers to a section of an underlying array. It can grow and shrink within the bounds of this array.")
+- [3 ways to compare slices (arrays)](https://yourbasic.org/golang/compare-slices/ "You typically want to write your own code to compare slices. However, use the optimized bytes.Equal for byte slices, and for testing consider using reflect.DeepEqual.")
+- [How to best clear a slice: empty vs. nil](https://yourbasic.org/golang/clear-slice/ "You can clear a slice either by setting it to nil and releasing the underlying memory, or by slicing it to zero length and thereby keeping the memory.")
+- [2 ways to delete an element from a slice](https://yourbasic.org/golang/delete-element-slice/ "How to remove an element from a slice: fast version (changes order), slow version (maintains order).")
+- [Find element in slice/array with linear or binary search](https://yourbasic.org/golang/find-search-contains-slice/ "To check if a slice or array contains an element, you can either write your own linear search or use one of the provided binary search functions.")
+- [Last item in a slice/array](https://yourbasic.org/golang/last-item-in-slice/ "Use a[len(a)-1] to access the last element of a.")
 
 ### Files
 
--   [Read a file (stdin) line by line](https://yourbasic.org/golang/read-file-line-by-line/ "Use a bufio.Scanner to read a file one line at a time in Go. Use os.Stdin to read from the standard input stream.")
--   [Append text to a file](https://yourbasic.org/golang/append-to-file/ "To open/create a file for writing and appending in Go: os.OpenFile(filename, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)")
--   [Find current working directory](https://yourbasic.org/golang/current-directory/ "Use os.Getwd to find the current working directory, and os.Executable to find the executable that started the current process.")
--   [List all files (recursively) in a directory](https://yourbasic.org/golang/list-files-in-directory/ "Use ioutil.ReadDir to get a sorted directory listing. To visit all files recursively, use filepath.Walk.")
--   [Create a temporary file or directory](https://yourbasic.org/golang/temporary-file-directory/ "Use ioutil.TempFile to create a temporary file, and ioutio.TempDir to create a temporary directory. Starting with Go 1.11, it's possible to add a suffix to the randomly generated file name.")
+- [Read a file (stdin) line by line](https://yourbasic.org/golang/read-file-line-by-line/ "Use a bufio.Scanner to read a file one line at a time in Go. Use os.Stdin to read from the standard input stream.")
+- [Append text to a file](https://yourbasic.org/golang/append-to-file/ "To open/create a file for writing and appending in Go: os.OpenFile(filename, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)")
+- [Find current working directory](https://yourbasic.org/golang/current-directory/ "Use os.Getwd to find the current working directory, and os.Executable to find the executable that started the current process.")
+- [List all files (recursively) in a directory](https://yourbasic.org/golang/list-files-in-directory/ "Use ioutil.ReadDir to get a sorted directory listing. To visit all files recursively, use filepath.Walk.")
+- [Create a temporary file or directory](https://yourbasic.org/golang/temporary-file-directory/ "Use ioutil.TempFile to create a temporary file, and ioutio.TempDir to create a temporary directory. Starting with Go 1.11, it's possible to add a suffix to the randomly generated file name.")
 
 ### Time and date
 
--   [Format a time or date [complete guide]](https://yourbasic.org/golang/format-parse-string-time-date-example/ "To format or parse a time in Go, you format a special layout parameter (Mon Jan 2 15:04:05 MST 2006) the same way as the time should be formatted. ")
--   [Time zones](https://yourbasic.org/golang/time-change-convert-location-timezone/ "How to get the time in a different time zone in Go.")
--   [How to get current timestamp](https://yourbasic.org/golang/current-time/ "To get a second/nanosecond timestamp use time.Now and time.Unix or time.UnixNano.")
--   [Get year, month, day from time](https://yourbasic.org/golang/day-month-year-from-time/ "How to get the day/month/year as integers from a time.Time in Go.")
--   [How to find the day of week](https://yourbasic.org/golang/day-of-week-int/ "How to get the day of week as an integer from a time.Time in Go.")
--   [Days between two dates](https://yourbasic.org/golang/days-between-dates/ "How to calculate the number of days between two dates in Go.")
--   [Days in a month](https://yourbasic.org/golang/last-day-month-date/ "How to find the last day of a month in Go. The trick is that time.Date accepts values outside their usual ranges, and that these values are normalized during conversion.")
--   [Measure execution time](https://yourbasic.org/golang/measure-execution-time/ "How to measure execution time for a piece of code or a function in Go.")
+- [Format a time or date [complete guide]](https://yourbasic.org/golang/format-parse-string-time-date-example/ "To format or parse a time in Go, you format a special layout parameter (Mon Jan 2 15:04:05 MST 2006) the same way as the time should be formatted. ")
+- [Time zones](https://yourbasic.org/golang/time-change-convert-location-timezone/ "How to get the time in a different time zone in Go.")
+- [How to get current timestamp](https://yourbasic.org/golang/current-time/ "To get a second/nanosecond timestamp use time.Now and time.Unix or time.UnixNano.")
+- [Get year, month, day from time](https://yourbasic.org/golang/day-month-year-from-time/ "How to get the day/month/year as integers from a time.Time in Go.")
+- [How to find the day of week](https://yourbasic.org/golang/day-of-week-int/ "How to get the day of week as an integer from a time.Time in Go.")
+- [Days between two dates](https://yourbasic.org/golang/days-between-dates/ "How to calculate the number of days between two dates in Go.")
+- [Days in a month](https://yourbasic.org/golang/last-day-month-date/ "How to find the last day of a month in Go. The trick is that time.Date accepts values outside their usual ranges, and that these values are normalized during conversion.")
+- [Measure execution time](https://yourbasic.org/golang/measure-execution-time/ "How to measure execution time for a piece of code or a function in Go.")
 
 ### Random numbers
 
-[![](https://yourbasic.org/golang/dart-thumb.jpg "Generate random numbers, characters and slice elements")](https://yourbasic.org/golang/generate-number-random-range/)
-
--   [Generate random numbers, characters and slice elements](https://yourbasic.org/golang/generate-number-random-range/ "How to best use the math/rand package in Go to generate pseudo-random data.")
--   [Generate a random string (password)](https://yourbasic.org/golang/generate-random-string/ "How to generate a random string with restrictions (at least one special character, etc).")
--   [Generate a unique string (UUID, GUID)](https://yourbasic.org/golang/generate-uuid-guid/ "You can use the rand.Read function from package crypto/rand to generate a basic UUID.")
--   [Shuffle a slice or array](https://yourbasic.org/golang/shuffle-slice-array/ "How to create a random permutation of a slice or array in Go.")
--   [User-friendly access to crypto/rand](https://yourbasic.org/golang/crypto-rand-int/ "How to combine the convenient math/rand library with the secure crypto/rand source.")
+- [Generate random numbers, characters and slice elements](https://yourbasic.org/golang/generate-number-random-range/ "How to best use the math/rand package in Go to generate pseudo-random data.")
+- [Generate a random string (password)](https://yourbasic.org/golang/generate-random-string/ "How to generate a random string with restrictions (at least one special character, etc).")
+- [Generate a unique string (UUID, GUID)](https://yourbasic.org/golang/generate-uuid-guid/ "You can use the rand.Read function from package crypto/rand to generate a basic UUID.")
+- [Shuffle a slice or array](https://yourbasic.org/golang/shuffle-slice-array/ "How to create a random permutation of a slice or array in Go.")
+- [User-friendly access to crypto/rand](https://yourbasic.org/golang/crypto-rand-int/ "How to combine the convenient math/rand library with the secure crypto/rand source.")
 
 ### Language basics
 
-[![Go beginner's guide](https://yourbasic.org/golang/student-thumb.jpg "Go beginner's guide")](https://yourbasic.org/golang/getting-started-hello-world/)
-
--   [Go beginner's guide: top 4 resources to get you started](https://yourbasic.org/golang/getting-started-hello-world/ "How to write 'Hello world' and get started with Go programming: try it out, learn the basics, install the tools, and start a project.")
--   [Packages explained: declare, import, download, document](https://yourbasic.org/golang/packages-explained/ "Every Go program is made up of packages and each package has an import path.")
--   [Package documentation](https://yourbasic.org/golang/package-documentation/ "How to create and download Go package documentation.")
--   [Package initialization and program execution order](https://yourbasic.org/golang/package-init-function-main-execution-order/ "Imported packages are initialized before the package itself. Packages are initialized one at a time: first package-level variables are initialized in declaration order, then the init functions are run.")
+- [Go beginner's guide: top 4 resources to get you started](https://yourbasic.org/golang/getting-started-hello-world/ "How to write 'Hello world' and get started with Go programming: try it out, learn the basics, install the tools, and start a project.")
+- [Packages explained: declare, import, download, document](https://yourbasic.org/golang/packages-explained/ "Every Go program is made up of packages and each package has an import path.")
+- [Package documentation](https://yourbasic.org/golang/package-documentation/ "How to create and download Go package documentation.")
+- [Package initialization and program execution order](https://yourbasic.org/golang/package-init-function-main-execution-order/ "Imported packages are initialized before the package itself. Packages are initialized one at a time: first package-level variables are initialized in declaration order, then the init functions are run.")
 
 #### Statements
 
--   [4 basic if-else statement patterns](https://yourbasic.org/golang/if-else-statement/ "If statements in Go can include an init statement. Go has no short one-line alternative to the question mark operator.")
--   [5 switch statement patterns](https://yourbasic.org/golang/switch-statement/ "A switch-case-default statement is a shorter and cleaner way to write a sequence of if-else statements.")
--   [5 basic for loop patterns](https://yourbasic.org/golang/for-loop/ "The for loop can be used for three-component loops, while loops, infinite loops and for-each range loops. You can exit a loop with break or continue.")
--   [2 patterns for a do-while loop in Go](https://yourbasic.org/golang/do-while-loop/ "You can write a do-while or repeat-until loop in Go with a for statement.")
--   [4 basic range loop (for-each) patterns](https://yourbasic.org/golang/for-loop-range-array-slice-map-channel/ "A range loop is used to iterate over the values in a slice, array or channel, the keys and values in a map, or the characters in a string.")
--   [Defer a function call (with return value)](https://yourbasic.org/golang/defer/ "A deferred function is executed when the surrounding function returns, either on exit or on panic. Deferred functions are commonly used for clean-up actions, such as closing a file or unlocking a mutex.")
--   [Type assertions and type switches](https://yourbasic.org/golang/type-assertion-switch/ "To convert an interface to a string, struct or map you should use a type assertion, which provides access to an interface's concrete value.")
--   [Type alias explained](https://yourbasic.org/golang/type-alias/ "Go type aliases support gradual code repair while moving a type between packages. They are not meant for everyday use.")
+- [4 basic if-else statement patterns](https://yourbasic.org/golang/if-else-statement/ "If statements in Go can include an init statement. Go has no short one-line alternative to the question mark operator.")
+- [5 switch statement patterns](https://yourbasic.org/golang/switch-statement/ "A switch-case-default statement is a shorter and cleaner way to write a sequence of if-else statements.")
+- [5 basic for loop patterns](https://yourbasic.org/golang/for-loop/ "The for loop can be used for three-component loops, while loops, infinite loops and for-each range loops. You can exit a loop with break or continue.")
+- [2 patterns for a do-while loop in Go](https://yourbasic.org/golang/do-while-loop/ "You can write a do-while or repeat-until loop in Go with a for statement.")
+- [4 basic range loop (for-each) patterns](https://yourbasic.org/golang/for-loop-range-array-slice-map-channel/ "A range loop is used to iterate over the values in a slice, array or channel, the keys and values in a map, or the characters in a string.")
+- [Defer a function call (with return value)](https://yourbasic.org/golang/defer/ "A deferred function is executed when the surrounding function returns, either on exit or on panic. Deferred functions are commonly used for clean-up actions, such as closing a file or unlocking a mutex.")
+- [Type assertions and type switches](https://yourbasic.org/golang/type-assertion-switch/ "To convert an interface to a string, struct or map you should use a type assertion, which provides access to an interface's concrete value.")
+- [Type alias explained](https://yourbasic.org/golang/type-alias/ "Go type aliases support gradual code repair while moving a type between packages. They are not meant for everyday use.")
 
 #### Expressions
 
--   [Create, initialize and compare structs](https://yourbasic.org/golang/structs-explained/ "A struct is a typed collection of fields, useful for grouping data into records.")
--   [Pointers explained](https://yourbasic.org/golang/pointers-explained/ "Pointers store addresses of objects. Addresses can be passed around more efficiently than the actual objects. A pointer has type *T.")
--   [Untyped numeric constants with no limits](https://yourbasic.org/golang/untyped-constants/ "Numeric constants in Go have no limits and can be untyped. When it's used in a context that requires a type, a type will be inferred and a limit applied.")
--   [Make slices, maps and channels](https://yourbasic.org/golang/make-slice-map-channel/ "How to use the make function to create slices, maps and channels in Go.")
--   [How to append anything (element, slice or string) to a slice](https://yourbasic.org/golang/append-explained/ "The append function appends elements to the end of a slice: if there is enough capacity, the underlying array is reused; if not, a new underlying array is allocated and the data is copied over.")
--   [How to use the copy function](https://yourbasic.org/golang/copy-explained/ "The copy function copies elements to and from a slice. It returns the number of elements copied, which will be the minimum of len(dst) and len(src).")
--   [Default zero values for all Go types](https://yourbasic.org/golang/default-zero-value/ "Variables declared without an initial value are set to their zero values: 0 or 0.0 for numbers, false for booleans, "" for strings, and nil for interfaces, slices, channels, maps, pointers and functions.")
--   [Operators: complete list](https://yourbasic.org/golang/operators/ "List of all Go operators (arithmetic, equality, comparison, logical, bitwise and other) with descriptions and operator priority.")
--   [Conversions [complete list]](https://yourbasic.org/golang/conversions/ "All Go conversions (casts): interfaces, strings, integers, floats, byte slices, rune slices, underlying type, implicit conversions and pointers.")
+- [Create, initialize and compare structs](https://yourbasic.org/golang/structs-explained/ "A struct is a typed collection of fields, useful for grouping data into records.")
+- [Pointers explained](https://yourbasic.org/golang/pointers-explained/ "Pointers store addresses of objects. Addresses can be passed around more efficiently than the actual objects. A pointer has type *T.")
+- [Untyped numeric constants with no limits](https://yourbasic.org/golang/untyped-constants/ "Numeric constants in Go have no limits and can be untyped. When it's used in a context that requires a type, a type will be inferred and a limit applied.")
+- [Make slices, maps and channels](https://yourbasic.org/golang/make-slice-map-channel/ "How to use the make function to create slices, maps and channels in Go.")
+- [How to append anything (element, slice or string) to a slice](https://yourbasic.org/golang/append-explained/ "The append function appends elements to the end of a slice: if there is enough capacity, the underlying array is reused; if not, a new underlying array is allocated and the data is copied over.")
+- [How to use the copy function](https://yourbasic.org/golang/copy-explained/ "The copy function copies elements to and from a slice. It returns the number of elements copied, which will be the minimum of len(dst) and len(src).")
+- [Default zero values for all Go types](<https://yourbasic.org/golang/default-zero-value/> "Variables declared without an initial value are set to their zero values: 0 or 0.0 for numbers, false for booleans, "" for strings, and nil for interfaces, slices, channels, maps, pointers and functions.")
+- [Operators: complete list](https://yourbasic.org/golang/operators/ "List of all Go operators (arithmetic, equality, comparison, logical, bitwise and other) with descriptions and operator priority.")
+- [Conversions [complete list]](https://yourbasic.org/golang/conversions/ "All Go conversions (casts): interfaces, strings, integers, floats, byte slices, rune slices, underlying type, implicit conversions and pointers.")
 
 #### Methods and interfaces
 
--   [Methods explained](https://yourbasic.org/golang/methods-explained/ "Go doesn't have classes, but you can define methods on types. A method is a function with an extra receiver argument.")
--   [Type, value and equality of interfaces](https://yourbasic.org/golang/interfaces-explained/ "An interface type consists of a set of method signatures. A variable of interface type can hold any value that implements these methods.")
--   [Named return values [best practice]](https://yourbasic.org/golang/named-return-values-parameters/ "In Go result parameters may be named and used as regular variables.")
--   [Optional parameters, default parameter values and method overloading](https://yourbasic.org/golang/overload-overwrite-optional-parameter/ "Go does not have optional parameters or default parameter values, nor does it support method overloading. Method overloading is emulated by writing several methods with different names.")
--   [Variadic functions (...T)](https://yourbasic.org/golang/variadic-function/ "A variadic function can be called with a variable number of arguments. You can pass a slice directly to a variadic function using the three dots notation.")
+- [Methods explained](https://yourbasic.org/golang/methods-explained/ "Go doesn't have classes, but you can define methods on types. A method is a function with an extra receiver argument.")
+- [Type, value and equality of interfaces](https://yourbasic.org/golang/interfaces-explained/ "An interface type consists of a set of method signatures. A variable of interface type can hold any value that implements these methods.")
+- [Named return values [best practice]](https://yourbasic.org/golang/named-return-values-parameters/ "In Go result parameters may be named and used as regular variables.")
+- [Optional parameters, default parameter values and method overloading](https://yourbasic.org/golang/overload-overwrite-optional-parameter/ "Go does not have optional parameters or default parameter values, nor does it support method overloading. Method overloading is emulated by writing several methods with different names.")
+- [Variadic functions (...T)](https://yourbasic.org/golang/variadic-function/ "A variadic function can be called with a variable number of arguments. You can pass a slice directly to a variadic function using the three dots notation.")
 
 #### Error handling
 
-[![Error handling best practice](https://yourbasic.org/golang/errors.png "Error handling best practice")](https://yourbasic.org/golang/errors-explained/)
-
--   [Error handling best practice](https://yourbasic.org/golang/errors-explained/ "Go uses return values that implement the error interface to indicate errors. Panics are similar to C++ and Java exceptions, but are only intended for run-time errors.")
--   [3 simple ways to create an error](https://yourbasic.org/golang/create-error/ "How to create simple string-based errors and custom error types with data.")
--   [Panics, stack traces and how to recover [best practice]](https://yourbasic.org/golang/recover-from-panic/ "A panic stops the normal execution of a goroutine and prints a stack trace to the console. The recover function can be used to catch a panic and regain control.")
+- [Error handling best practice](https://yourbasic.org/golang/errors-explained/ "Go uses return values that implement the error interface to indicate errors. Panics are similar to C++ and Java exceptions, but are only intended for run-time errors.")
+- [3 simple ways to create an error](https://yourbasic.org/golang/create-error/ "How to create simple string-based errors and custom error types with data.")
+- [Panics, stack traces and how to recover [best practice]](https://yourbasic.org/golang/recover-from-panic/ "A panic stops the normal execution of a goroutine and prints a stack trace to the console. The recover function can be used to catch a panic and regain control.")
 
 #### Bits and pieces
 
--   [Blank identifier (underscore)](https://yourbasic.org/golang/underscore/ "The blank identifier is an anonymous placeholder. It can be used to ignore values, import only for side effects, or to silence the compiler.")
--   [Find the type of an object](https://yourbasic.org/golang/find-type-of-object/ "You can find type information about an interface variable with the fmt package, type assertions, type switches or reflection.")
--   [Generics (alternatives and workarounds)](https://yourbasic.org/golang/generics/ "Interfaces, multiple functions, type assertions, reflection and code generation are techniques that can be use in place of parametric polymorphism in Go.")
--   [Pick the right one: int vs. int64](https://yourbasic.org/golang/int-vs-int64/ "An index, length or capacity should normally be an int. The types int8, int16, int32, and int64 are best suited for data.")
--   [3 dots in 4 places](https://yourbasic.org/golang/three-dots-ellipsis/ "The dot dot dot (...) notation is used in four different ways in Go: for variadic function parameters, as arguments to variadic functions, for array literals, and in the go command.")
--   [Redeclaring variables](https://yourbasic.org/golang/redeclaring-variables/ "Variables can be redeclared in short multi-variable declarations where at least one new variable is introduced.")
+- [Blank identifier (underscore)](https://yourbasic.org/golang/underscore/ "The blank identifier is an anonymous placeholder. It can be used to ignore values, import only for side effects, or to silence the compiler.")
+- [Find the type of an object](https://yourbasic.org/golang/find-type-of-object/ "You can find type information about an interface variable with the fmt package, type assertions, type switches or reflection.")
+- [Generics (alternatives and workarounds)](https://yourbasic.org/golang/generics/ "Interfaces, multiple functions, type assertions, reflection and code generation are techniques that can be use in place of parametric polymorphism in Go.")
+- [Pick the right one: int vs. int64](https://yourbasic.org/golang/int-vs-int64/ "An index, length or capacity should normally be an int. The types int8, int16, int32, and int64 are best suited for data.")
+- [3 dots in 4 places](https://yourbasic.org/golang/three-dots-ellipsis/ "The dot dot dot (...) notation is used in four different ways in Go: for variadic function parameters, as arguments to variadic functions, for array literals, and in the go command.")
+- [Redeclaring variables](https://yourbasic.org/golang/redeclaring-variables/ "Variables can be redeclared in short multi-variable declarations where at least one new variable is introduced.")
 
 ### Standard library
 
-[![How to use JSON with Go](https://yourbasic.org/golang/bits-man-thumb.jpg "How to use JSON with Go")](https://yourbasic.org/golang/json-example/)
-
--   [How to use JSON with Go [best practices]](https://yourbasic.org/golang/json-example/ "An introduction to Go JSON encoding and decoding with plenty of examples.")  encoding/json
--   [fmt.Printf formatting tutorial and cheat sheet](https://yourbasic.org/golang/fmt-printf-reference-cheat-sheet/ "The functions fmt.Printf and fmt.Sprintf format numbers and strings indented with spaces or zeroes, in different bases, and with optional quotes.")  fmt
--   [How to use the io.Reader interface](https://yourbasic.org/golang/io-reader-interface-explained/ "An io.Reader is an entity from which you can read a stream of bytes. The standard library has many Reader implementations, including in-memory byte buffers, files and network connections. Readers are accepted as input by many utilities such as HTTP clients and server implementations.")  io
--   [How to use the io.Writer interface](https://yourbasic.org/golang/io-writer-interface-explained/ "An io.Writer is an entity to which you can write a stream of bytes. The standard library contains many Writers, and Writers are accepted as input by many utilities.")  io
--   [Create a new image](https://yourbasic.org/golang/create-image/ "To generate a PNG image programmatically in Go use the image, image/color, and image/png packages.")  image
--   [Write log to file (or /dev/null)](https://yourbasic.org/golang/log-to-file/ "Use os.OpenFile with arguments os.O_APPEND | os.O_CREATE | os.O_WRONLY and 0644 to create and open a log file. To disable all output from a logger set the output destination to ioutil.Discard.")  log
--   [Hello world HTTP server example](https://yourbasic.org/golang/http-server-example/ "Line-by-line breakdown of a basic HTTP web server with client requests and responses.")  net/http
--   [Regexp tutorial and cheat sheet](https://yourbasic.org/golang/regexp-cheat-sheet/ "Regular expressions in Go: introduction, cheat sheet and plenty of code examples.")  regexp
--   [The 3 ways to sort in Go](https://yourbasic.org/golang/how-to-sort-in-go/ "How to sort any type of data in Go using the sort package. All algorithms in the package perform O(n log n) comparisons in the worst case.")  sort
+- [How to use JSON with Go [best practices]](https://yourbasic.org/golang/json-example/ "An introduction to Go JSON encoding and decoding with plenty of examples.")  encoding/json
+- [fmt.Printf formatting tutorial and cheat sheet](https://yourbasic.org/golang/fmt-printf-reference-cheat-sheet/ "The functions fmt.Printf and fmt.Sprintf format numbers and strings indented with spaces or zeroes, in different bases, and with optional quotes.")  fmt
+- [How to use the io.Reader interface](https://yourbasic.org/golang/io-reader-interface-explained/ "An io.Reader is an entity from which you can read a stream of bytes. The standard library has many Reader implementations, including in-memory byte buffers, files and network connections. Readers are accepted as input by many utilities such as HTTP clients and server implementations.")  io
+- [How to use the io.Writer interface](https://yourbasic.org/golang/io-writer-interface-explained/ "An io.Writer is an entity to which you can write a stream of bytes. The standard library contains many Writers, and Writers are accepted as input by many utilities.")  io
+- [Create a new image](https://yourbasic.org/golang/create-image/ "To generate a PNG image programmatically in Go use the image, image/color, and image/png packages.")  image
+- [Write log to file (or /dev/null)](https://yourbasic.org/golang/log-to-file/ "Use os.OpenFile with arguments os.O_APPEND | os.O_CREATE | os.O_WRONLY and 0644 to create and open a log file. To disable all output from a logger set the output destination to ioutil.Discard.")  log
+- [Hello world HTTP server example](https://yourbasic.org/golang/http-server-example/ "Line-by-line breakdown of a basic HTTP web server with client requests and responses.")  net/http
+- [Regexp tutorial and cheat sheet](https://yourbasic.org/golang/regexp-cheat-sheet/ "Regular expressions in Go: introduction, cheat sheet and plenty of code examples.")  regexp
+- [The 3 ways to sort in Go](https://yourbasic.org/golang/how-to-sort-in-go/ "How to sort any type of data in Go using the sort package. All algorithms in the package perform O(n log n) comparisons in the worst case.")  sort
